@@ -45,6 +45,8 @@ Installation :
 
 
 Run the Application
+
 To start the application, run:
+
                        python manage.py runserver
 
