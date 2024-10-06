@@ -15,7 +15,7 @@ Installation :
 
 1. Create a virtual environment
    
-Navigate to the root directory of the project and run the following command:
+   Navigate to the root directory of the project and run the following command:
 
         python -m venv venv
 
@@ -25,13 +25,13 @@ Navigate to the root directory of the project and run the following command:
 
 5. Install the required dependencies
    
-From the root directory, run:
+   From the root directory, run:
                          
                           pip install -r requirements.txt
 
 7. Run migrations
    
-To set up the database schema, run:
+   To set up the database schema, run:
 
                         python manage.py makemigrations
                         python manage.py migrate
@@ -39,7 +39,7 @@ To set up the database schema, run:
 
 9. Create an admin user
     
-This will allow you to access the Django Admin interface. Run:
+   This will allow you to access the Django Admin interface. Run:
 
                         python manage.py createsuperuser
 
