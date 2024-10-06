@@ -44,9 +44,9 @@ Installation :
        python manage.py createsuperuser
 
 
-  Run the Application
+10. Run the Application
 
-  To start the application, run:
+    To start the application, run:
 
-    python manage.py runserver
+        python manage.py runserver
 
