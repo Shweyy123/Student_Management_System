@@ -27,26 +27,26 @@ Installation :
    
    From the root directory, run:
                          
-                          pip install -r requirements.txt
+       pip install -r requirements.txt
 
 7. Run migrations
    
    To set up the database schema, run:
 
-                        python manage.py makemigrations
-                        python manage.py migrate
+       python manage.py makemigrations
+       python manage.py migrate
 
 
 9. Create an admin user
     
    This will allow you to access the Django Admin interface. Run:
 
-                        python manage.py createsuperuser
+       python manage.py createsuperuser
 
 
   Run the Application
 
   To start the application, run:
 
-                       python manage.py runserver
+    python manage.py runserver
 
