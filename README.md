@@ -14,23 +14,33 @@ Ensure you have the following installed on your machine:
 Installation :
 
 1. Create a virtual environment
+   
 Navigate to the root directory of the project and run the following command:
-      python -m venv venv
 
-2. Activate the virtual environment
-                       venv\scripts\activate
+        python -m venv venv
 
-3. Install the required dependencies
+3. Activate the virtual environment
+
+       venv\scripts\activate
+
+5. Install the required dependencies
+   
 From the root directory, run:
-                         pip install -r requirements.txt
+                         
+                          pip install -r requirements.txt
 
-4. Run migrations
+7. Run migrations
+   
 To set up the database schema, run:
+
                         python manage.py makemigrations
                         python manage.py migrate
 
-5. Create an admin user
+
+9. Create an admin user
+    
 This will allow you to access the Django Admin interface. Run:
+
                         python manage.py createsuperuser
 
 
