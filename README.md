@@ -8,7 +8,7 @@ Ensure you have the following installed on your machine:
 
 1) Python 3.8-3.11: The project is built using Django 4.2.4, which requires a compatible version of Python. For more information on installing Python, refer to Python's official documentation.
 
-2) Visual Studio Code: Recommended IDE for this project. Download it here.
+2) Visual Studio Code: Recommended IDE for this project. 
 
 
 Installation :
